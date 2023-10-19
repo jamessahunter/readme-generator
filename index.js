@@ -40,7 +40,7 @@ const questions = [
       type: 'list',
       message: 'Select the license you would like to use',
       name: 'license',
-      choices: ['MIT','ISC','Educational Community License v2.0'],   
+      choices: ['MIT','The Unlicense','BSD 2-Clause License'],   
   },
   {
       type: 'input',
