@@ -3,7 +3,7 @@
 function renderLicenseBadge(license) {
   switch(license){
     case "MIT":
-      Fs.writeFile("![GitHub License]")
+      return "![GitHub License]";
   }
 }
 
@@ -12,7 +12,7 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   switch(license){
     case "MIT":
-      Fs.writeFile("(link to license)")
+      return "(link to license)"
   }
 }
 
@@ -21,18 +21,35 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   switch(license){
     case "MIT":
-      Fs.writeFile("License info")
+      return "License info"
   }
 }
 console.log("outside");
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  
   console.log("works");
   return `# ${data.title}
-  ## ${data.description}
-  ## ${data.install}
-  ## ${data.usage}
-  ## ${data.test}
+  ${renderLicenseBadge(data.license)}
+## Description
+ ${data.description}
+
+ ## Table of Contents
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+## Intallation
+
+ ${data.install}
+
+## Usage
+
+  ${data.usage}
+ 
+## Test Instructions
+  ${data.test}
 
 `;
 }
