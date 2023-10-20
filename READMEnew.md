@@ -1,38 +1,37 @@
-# 
+# ReadMe Generator
   [MIT](https://choosealicense.com/licenses/mit/)
 
 ## Description
- 
+ This project generates a README file
 
  ## Table of Contents
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
 * [Contributions](#contributions)
 * [Questions](#questions)
 * [License](#license)
 
 ## Installation
 
- 
+ To install download all the files
 
 ## Usage
 
-  
+  First enter nmp i in the command line. Then type in node index.js
 
 ## Contributions
-  
+  Please contribute
 
 ## Test Instructions
-  
+  No test instructions
 
 ## Questions
-  [GitHub](https://github.com/) 
+  [GitHub](https://github.com/jamessahunter) 
 
   If you have any additional questions please contact the email below 
 
-  
+  jamessahunter@gmail.com
 
 ## License
 
